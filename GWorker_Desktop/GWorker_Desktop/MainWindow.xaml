@@ -5,8 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GWorker_Desktop"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="GWorker Desktop" Height="450" Width="800" WindowStartupLocation="CenterScreen" Icon="/alphabet-150770_960_720.png">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="29*"/>
+            <ColumnDefinition Width="11*"/>
+        </Grid.ColumnDefinitions>
 
     </Grid>
 </Window>
